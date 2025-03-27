@@ -1,13 +1,12 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 0: March 27, 2025
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Today's Progress**: Forked and cloned repo, getting ready to go
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+**Thoughts:** Psyching myself up to get this started!
 
-**Link to work:** [Calculator App](http://www.example.com)
+##### leave examples for the moment
 
 ### Day 0: February 30, 2016 (Example 2)
 ##### (delete me or comment me out)
