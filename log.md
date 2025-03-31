@@ -4,7 +4,7 @@
 
 **Today's Progress**: Forked and cloned repo, getting ready to go
 
-**Thoughts:** Psyching myself up to get this started!
+**Thoughts:** Psyching myself up to get this started! Yes!
 
 ##### leave examples for the moment
 
