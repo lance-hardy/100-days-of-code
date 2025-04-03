@@ -1,0 +1,40 @@
+/* this is a css file compiled from scss */
+/* use variables to store common elements like colors, mergins, etc */
+body {
+  font-family: sans-serif, arial;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+h1 {
+  color: #666;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  color: #333;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* the beauty of scss is that you can nest your css */
+.box {
+  width: 60%;
+  height: 100%;
+  min-height: 500px;
+  border: 8px solid #5c8ed1;
+  margin: 0 auto;
+  padding: 40px;
+  background: #000;
+}
+.box .content h1 {
+  font-size: 24px;
+  color: #f4f4f7;
+}
+.box .content p {
+  font-size: 18px;
+  color: #f4f4f7;
+}
+/*# sourceMappingURL=styles.css.map */
