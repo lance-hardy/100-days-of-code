@@ -31,3 +31,15 @@
 **Thoughts:** This is a good evolution for this starting project. 
 
 **Link(s) to work**: Wait for more significant changes. Progress in this log. 
+
+### Day 3: April 3, 2025
+
+**Today's Progress**: Working on resume versions led to an important conclusion. I am learning Terraform and need to be able to illustrate that on resumes and in interviews. Best way to do that is to create infrastructure in my AWS account and push projects to github. Cool. So today I:
+
+- created aliases for my client and personal AWS credentials so I don't accidentally create a bunch of infrastructure in a client's AWS account (that would be bad!)
+- selected a Terraform project to do: create an S3 bucket website for a domain I own in Route53
+- created the Terraform config file for this and began testing with 'terraform plan'
+
+**Thoughts:** This is pretty cool stuff. Looking forward to digging in more tomorrow. 
+
+**Link(s) to work**: Wait for more significant changes. Progress in this log. 
