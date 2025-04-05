@@ -17,7 +17,6 @@ resource "aws_s3_bucket" "website_bucket" {
 
 resource "aws_s3_bucket_website_configuration" "website_config" {
   bucket = aws_s3_bucket.website_bucket.id
-
   index_document {
     suffix = "index.html"
   }
@@ -25,11 +24,23 @@ resource "aws_s3_bucket_website_configuration" "website_config" {
   error_document {
     key = "error.html"
   }
+
+}
+
+resource "aws_s3_bucket_public_access_block" "website_access_block" {
+  bucket = aws_s3_bucket.website_bucket.id
+
+  block_public_acls       = false
+  block_public_policy     = false
+  ignore_public_acls      = false
+  restrict_public_buckets = false
 }
 
 # Bucket Policy to Allow Public Access
 resource "aws_s3_bucket_policy" "website_policy" {
   bucket = aws_s3_bucket.website_bucket.id
+  depends_on = [aws_s3_bucket_public_access_block.website_access_block]  # Add this line
+
   policy = <<POLICY
 {
   "Version": "2012-10-17",
@@ -101,8 +112,8 @@ resource "aws_iam_policy_attachment" "attach_admin" {
 
 # OPTIONAL: Route 53 DNS Setup
 resource "aws_route53_record" "root_domain" {
-  zone_id = "YOUR_ROUTE53_ZONE_ID" # Replace with your hosted zone ID
-  name    = var.domain_name
+  name = var.domain_name
+  zone_id = "Z9J6GONJPJZAO"
   type    = "A"
 
   alias {
