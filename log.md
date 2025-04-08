@@ -43,3 +43,21 @@
 **Thoughts:** This is pretty cool stuff. Looking forward to digging in more tomorrow. 
 
 **Link(s) to work**: Wait for more significant changes. Progress in this log. 
+
+### Day 4: April 4, 2025
+
+**Today's Progress**: Working on getting my Terraform plan to successfully execute. Hampered by an extremely odd bug in my AWS console. Every time I leave the IAM page it removes my permissions which of course makes Terraform fail at plan, apply and destroy. <sigh>
+
+That being said, I finish today with a successful terraform apply! 
+
+**Thoughts:** Very engaging and I am having fun with this project!
+
+**Link(s) to work**: Wait for more significant changes. Progress in this log. 
+
+### Day 5: April 7, 2025
+
+**Today's Progress**: Troubleshooting DNS issues with the Terraform deploy. It was successful but there is an issue with the cloudfront distribution and the build needs to include obtaining an SSL cert.
+
+**Thoughts:** It's Monday.
+
+**Link(s) to work**: Wait for more significant changes. Progress in this log. 
