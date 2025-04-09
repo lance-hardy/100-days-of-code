@@ -60,4 +60,12 @@ That being said, I finish today with a successful terraform apply!
 
 **Thoughts:** It's Monday.
 
+**Link(s) to work**: Wait for more significant changes. Progress in this log.
+
+### Day 6: April 8, 2025
+
+**Today's Progress**: I'm hound dogging this first Terraform project with one annoying hiccup left to figure out. Needed to incorporate the ACM into my Terraform file and apply. Finally the full project is deployed as expected with no errors and allows me to expand on the original html template project. 
+
+**Thoughts:** I'm still waiting to figure out why my AWS console account removes my IAM priveleges every time I leave the IAM page in a Chrome Incognito window. I have my work AWS logged in with regular Chrome so I haven't tested a non incognito window yet. Maybe I'll try Safari tomorrow. Oh joy. 
+
 **Link(s) to work**: Wait for more significant changes. Progress in this log. 

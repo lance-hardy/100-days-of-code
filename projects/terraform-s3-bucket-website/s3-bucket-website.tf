@@ -73,6 +73,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   enabled             = true
   default_root_object = "index.html"
 
+  aliases = ["pausefordiscourse.com"]
   default_cache_behavior {
     allowed_methods  = ["GET", "HEAD"]
     cached_methods   = ["GET", "HEAD"]
@@ -95,7 +96,9 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
   }
 
   viewer_certificate {
-    cloudfront_default_certificate = true
+    acm_certificate_arn      = "arn:aws:acm:us-east-1:xxxxxxxxxxx:certificate/1e436088-de60-424e-8675-4631bf340391"
+    ssl_support_method       = "sni-only"
+    minimum_protocol_version = "TLSv1.2_2021"
   }
 }
 
