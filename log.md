@@ -69,3 +69,11 @@ That being said, I finish today with a successful terraform apply!
 **Thoughts:** I'm still waiting to figure out why my AWS console account removes my IAM priveleges every time I leave the IAM page in a Chrome Incognito window. I have my work AWS logged in with regular Chrome so I haven't tested a non incognito window yet. Maybe I'll try Safari tomorrow. Oh joy. 
 
 **Link(s) to work**: Wait for more significant changes. Progress in this log. 
+
+### Day 7: April 9, 2025
+
+**Today's Progress**: Researched the best resources for learning Typescript and React. Started out with basic components and planning on a three week push for this initiative. 
+
+**Thoughts:** While I'm still wanting a Cloud Architect or DevOps role focused on AWS services and Kubernetes, I would consider web/front end development. 80%+ of all job postings I see are looking for Typescript/React. Should be a lateral move with my experience in javascript and Express.js.
+
+**Link(s) to work**: Wait for more significant changes. Progress in this log. 
