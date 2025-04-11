@@ -77,3 +77,11 @@ That being said, I finish today with a successful terraform apply!
 **Thoughts:** While I'm still wanting a Cloud Architect or DevOps role focused on AWS services and Kubernetes, I would consider web/front end development. 80%+ of all job postings I see are looking for Typescript/React. Should be a lateral move with my experience in javascript and Express.js.
 
 **Link(s) to work**: Wait for more significant changes. Progress in this log. 
+
+### Day 8: April 10, 2025
+
+**Today's Progress**: Typescript! Created a new project folder, updated my npm version, updated nvm, reinstalled node with nvm, uninstalled node from homebrew, installed Typescript, configured VS Code to gracefully handle Typescript, created a few Typescript files to compile and review javascript output. 
+
+**Thoughts:** Okay, this could be cool...
+
+**Link(s) to work**: Wait for more significant changes. Progress in this log. 
