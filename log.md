@@ -85,3 +85,11 @@ That being said, I finish today with a successful terraform apply!
 **Thoughts:** Okay, this could be cool...
 
 **Link(s) to work**: Wait for more significant changes. Progress in this log. 
+
+### Day 9: April 11, 2025
+
+**Today's Progress**: Sometimes the best laid plans go awry... I found I needed to dig in hard with gitlab runners. Fully documented the complete setup of a new runner on a m5.xlarge ubuntu ec2 including docker, aws, kubectl, repos, etc. Tested through successful build, much more to do. 
+
+**Thoughts:** This was mostly new, totally counts. 
+
+**Link(s) to work**: Wait for more significant changes. Progress in this log. 
